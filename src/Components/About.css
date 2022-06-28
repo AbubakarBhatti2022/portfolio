@@ -1,0 +1,61 @@
+.about-text {
+  background-color: red;
+ 
+}
+
+.about-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.about-pic img {
+  height: auto;
+  max-width: 80%;
+  border-radius: 30px;
+}
+
+.about-text-area {
+  padding-top: 50px;
+}
+
+/* accordian button css start */
+
+.accordion-item button::after {
+  display: none;
+}
+.accordion-button {
+  background-color: transparent;
+  color: red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  justify-content: center;
+  padding: 10px 80px;
+}
+
+.accordion {
+  border: none !important;
+  justify-content: left;
+}
+
+.accordion-item {
+  border: none !important;
+}
+
+.accordion-header {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: red;
+  background-color: #e7f1ff00;
+  box-shadow: none !important;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* accordians button css end */

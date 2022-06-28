@@ -1,0 +1,27 @@
+.footer-container {
+  background-color: rgba(0, 128, 0, 0.432);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-body {
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo {
+  padding-left: 0px;
+}
+
+.footer-logo img {
+  height: auto;
+  width: 170px;
+}
+
+.social-icons {
+  text-align: center;
+}
+
+.footer-text{
+    text-align: right;
+}
